@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Penalty Shoot</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="profile-icon" src="./Assets/maxico.jpg" height="150px" width="150px" alt="csk logo">
+                <span class="name" id=team-1-name></span>
+                <div class="row goal" id=team-1-goals>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span class="col" id=team-1-score></span>
+                    <span class="col">-</span>
+                    <span class="col" id=team-2-score></span>
+                </div>
+            </div>
+            <div class="col">
+                <img class="profile-icon" src="./Assets/spanish.jpg" height="150px" width="150px" alt=" logo">
+                <h1 class="name" id=team-2-name></h1>
+                <div class="row goal" id=team-2-goals>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <button id="strike-button" onclick="ButtonClick()"></button>
+            </div>
+            <div class="row" id="result" hidden></div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
